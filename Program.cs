@@ -1,0 +1,22 @@
+﻿using System;
+
+class Program
+{
+    static void Main()
+    {
+        
+        Console.Write("Enter Student Name: ");
+        string name = Console.ReadLine();
+
+        Console.Write("Enter Roll Number: ");
+        int rollNo = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Enter Marks: ");
+        float marks = Convert.ToSingle(Console.ReadLine());
+
+        
+        Console.WriteLine("Name       : " + name);
+        Console.WriteLine("Roll No.   : " + rollNo);
+        Console.WriteLine("Marks      : " + marks);
+    }
+}
