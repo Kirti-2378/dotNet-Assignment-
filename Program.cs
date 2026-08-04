@@ -1,0 +1,29 @@
+﻿using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter first number: ");
+        int num1 = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Enter second number: ");
+        int num2 = Convert.ToInt32(Console.ReadLine());
+
+       
+        Console.WriteLine("Sum        : " + (num1 + num2));
+        Console.WriteLine("Difference : " + (num1 - num2));
+        Console.WriteLine("Product    : " + (num1 * num2));
+
+        if (num2 != 0)
+        {
+            Console.WriteLine("Quotient   : " + (num1 / num2));
+            Console.WriteLine("Remainder  : " + (num1 % num2));
+        }
+        else
+        {
+            Console.WriteLine("Quotient   : Cannot divide by zero");
+            Console.WriteLine("Remainder  : Cannot divide by zero");
+        }
+    }
+}
